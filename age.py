@@ -1,5 +1,4 @@
 # Version: 1.0
-
 # A Python program that will take in your date of birth and calculate your current age,
 # along with the day of the week you were born:
 # This Python program Prompts the user to enter their date of birth in the format of YYYY-MM-DD.
@@ -29,7 +28,6 @@
 
 
 # Improved Version: 1.0.1
-
 # This program will prompt you for your date of birth, and then it will calculate your current age,
 # the day of the week you were born on, and the number of days until your next birthday.
 # To use the program, simply run it in a Python environment and follow the prompts.
@@ -65,7 +63,6 @@
 
 
 # Optimised Version: 1.0.2
-
 # This optimized code makes use of the strftime function to format the day of the week and removes the need for the days_of_week list.
 # It also simplifies the age calculation and uses f-strings for more concise output.
 # Additionally, it's worth noting that the original version of the code used datetime.datetime objects,
@@ -102,7 +99,6 @@
 
 
 # Improved Version: 1.0.3
-
 # In this program, we first prompt the user to enter their birthdate in UK format (DD-MM-YYYY) using input.
 # We then parse the birthdate string into a datetime.datetime object using datetime.datetime.strptime.
 # We then calculate the user's age and the number of days until their next birthday using the current date and the replace and days methods.
@@ -140,7 +136,6 @@
 
 
 # Version: 1.0.4 - Refactored and Optimised Code
-
 # In this optimized version, we first parse the birthdate string into a datetime.date object, which is more memory-efficient than a datetime.datetime object.
 # We also use the datetime.date.today() method to get the current date, which is faster than creating a datetime.datetime object with datetime.datetime.now().
 # Additionally, we optimize the calculation of the user's age and the number of days until their next birthday by using the replace method instead of creating a new datetime.datetime object for the user's next birthday.
@@ -178,7 +173,6 @@
 
 
 # Version: 1.0.5 - Further Refactored and Optimised Code
-
 # Here's a further optimized version of the program in Python that calculates a user's age and the number of days until their next birthday,
 # and also reverses the date format from UK format to US format:
 
