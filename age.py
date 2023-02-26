@@ -9,10 +9,10 @@
 # import datetime
 
 # # Prompt user for their date of birth
-# birthdate_str = input("Enter your date of birth (YYYY-MM-DD): ")
+# birthdate_str = input("Enter your date of birth (DD-MM-YYYY): ")
 
 # # Convert birthdate to datetime object
-# birthdate = datetime.datetime.strptime(birthdate_str, '%Y-%m-%d')
+# birthdate = datetime.datetime.strptime(birthdate_str, '%d-%m-%Y')
 
 # # Get today's date
 # today = datetime.date.today()
